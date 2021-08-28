@@ -15,6 +15,7 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000
 }
 
 /* Конец общих стилей*/
@@ -38,6 +39,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__link::after {
@@ -93,6 +95,7 @@
 
 .two-columns__brief {
   width: 175px;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -110,13 +113,93 @@
 
 /* Конец стилей блока description */
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+/* Стили блока digits */
+
+.digits {
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
+
+.section-title {
+  width: 60%;
+}
+
+.section-subtitle {
+  margin-top: 20px;
+  width: 60%;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__text {
+  margin-top: 20px;
+}
+
+/* Конец стилей блока digits */
+
+/* Стили блока feynman */
+
+.feynman {
+  background-color: #f2f2f2;
+  height: 890px;
+  position: relative;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding-top: 100px;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+}
+
+.feynman__link {
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+}
+
+.feynman__link::after {
+  content: "\2192";
+}
+
+/* Конец стилей блока feynman */
+
+/* Стили блока kaufman */
+
+.kaufman {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+/* Конец стилей блока kaufman */
+
+/* Стили блока footer */
+
+.footer {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+/* Конец стилей блока footer */
 
 /* flex классы */
 
@@ -128,11 +211,6 @@
 .flex-row {
   display: flex;
   flex-direction: row;
-}
-
-.flex-center-vertical {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .flex-item-center {
@@ -207,16 +285,21 @@
   font-weight: 400;
 }
 
-.text_color_black {
-  color: #000;
-}
-
-.text_color_white {
-  color: #fff
-}
-
-.text_color_blue {
-  color: #2f80ed;
-}
-
 /* Конец классов для типографии */
+
+/* Вспомогательные классы */
+
+.list {
+  list-style: none;
+}
+
+.centered-horizontal-block {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Конец вспомогательных классов */
