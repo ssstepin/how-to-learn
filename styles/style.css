@@ -374,6 +374,7 @@
   background-color: #1f1f1f;
   color: #fff;
   display: flex;
+  min-height: 350px;
 }
 
 .footer__columns {
