@@ -1,0 +1,10 @@
+.footer__column_content_copyright {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-basis: 711px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+}

@@ -1,0 +1,12 @@
+.header__main-illustration {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 608px;
+    width: 765px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+  

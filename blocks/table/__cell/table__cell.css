@@ -1,0 +1,7 @@
+.table__cell {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 250px;
+    margin-top: 60px;
+  }

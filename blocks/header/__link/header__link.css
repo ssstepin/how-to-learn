@@ -1,0 +1,11 @@
+.header__link {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+.header__link::after {
+  content: " →";
+}
